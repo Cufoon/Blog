@@ -22,13 +22,26 @@
   }
 
   .home[data-home=posts] {
-    .summary-card {
-      .summary{
-        min-height: 30.5rem;
-      }
+    .summary{
+      min-height: 30.5rem;
     }
   }
+}
 
+@media only screen and (max-width: 1920px) {
+  .home[data-home=posts] {
+    .summary{
+      min-height: 27rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .home[data-home=posts] {
+    .summary{
+      min-height: 24rem;
+    }
+  }
 }
 
 @media only screen and (max-width: 1440px) {
@@ -36,18 +49,11 @@
     width: 56%;
   }
 
-  #header-desktop .header-wrapper {
-    padding: 0 1rem;
-  }
-
   .home[data-home=posts] {
-    .summary-card {
-      .summary{
-        min-height: 22.5rem;
-      }
+    .summary{
+      min-height: 23rem;
     }
   }
-
 }
 
 @media only screen and (max-width: 1200px) {
@@ -77,15 +83,9 @@
     }
   }
 
-  #header-desktop .header-wrapper {
-    padding: 0 1rem;
-  }
-
   .home[data-home=posts] {
-    .summary-card {
-      .summary{
-        min-height: 20.5rem;
-      }
+    .summary{
+      min-height: 22rem;
     }
   }
 
@@ -96,17 +96,12 @@
 
 @media only screen and (max-width: 960px) {
   .home[data-home=posts] {
-    .summary-card {
-      .summary{
-        width: 100%;
-        min-height: 0;
-      }
+    .summary{
+      width: 100%;
+      min-height: 0;
     }
   }
 
-  #header-desktop .header-wrapper {
-    padding-left: 1rem;
-  }
   #content-404 {
     h2 {
       font-size: 4rem;
