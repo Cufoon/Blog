@@ -1,0 +1,8 @@
+# Author config
+# 作者配置
+
+name = "Cufoon"
+email = "cufoon@gmail.com"
+link = "https://github.com/Cufoon"
+avatar = "/avatar.webp"
+gravatarEmail = ""
